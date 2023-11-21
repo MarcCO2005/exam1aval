@@ -1,3 +1,5 @@
 mkdir examen
 cd examen
+mkdir si.txt && 
+mkdir si
 
