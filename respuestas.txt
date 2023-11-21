@@ -2,4 +2,4 @@ mkdir examen
 cd examen
 mkdir si.txt && 
 mkdir si
-
+mv si.txt si/
