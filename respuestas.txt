@@ -3,3 +3,5 @@ cd examen
 mkdir si.txt && 
 mkdir si
 mv si.txt si/
+sed 's/*/_/g' Alumnos.txt
+
