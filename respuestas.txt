@@ -5,3 +5,4 @@ mkdir si
 mv si.txt si/
 sed 's/*/_/g' Alumnos.txt
 grep "González" Alumnos.txt |  wc -l
+cat Alumnos.txt  | sed 's/Vicente/Pepe/g'
