@@ -3,7 +3,7 @@ cd examen
 mkdir si.txt && 
 mkdir si
 mv si.txt si/
-sed 's/*/_/g' Alumnos.txt
+awk -e '{print $1" " $2"-" $5}' Alumnos.txt
 grep "González" Alumnos.txt |  wc -l
 cat Alumnos.txt  | sed 's/Vicente/Pepe/g'
 cat Alumnos.txt | grep "201" 
